@@ -1,5 +1,8 @@
 package edu.vanderbilt.cs;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 class SecondClass {
     private String type;
 
