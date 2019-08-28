@@ -5,7 +5,7 @@ import com.google.gson.GsonBuilder;
 
 class SecondClass {
 
-    // MARK: - Properties
+    // MARK: - Fields
     private String type;
 
     // MARK: - Initialization
