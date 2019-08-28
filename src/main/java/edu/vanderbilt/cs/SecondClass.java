@@ -4,9 +4,13 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 class SecondClass {
+
+    // MARK: - Properties
     private String type;
 
-    SecondClass() {
+    // MARK: - Initialization
+    SecondClass()
+    {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
         String json = "{\"brand\":\"Jeep\", \"doors\": 3}";
@@ -14,7 +18,9 @@ class SecondClass {
         type = car.brand;
     }
 
-    String getType() {
+    // MARK: - Methods
+    String getType()
+    {
         return type;
     }
 }

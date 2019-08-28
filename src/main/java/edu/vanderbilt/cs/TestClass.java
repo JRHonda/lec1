@@ -1,8 +1,11 @@
 package edu.vanderbilt.cs;
 
 public class TestClass {
-    public static void main(String[] args) {
-        SecondClass bar = new SecondClass();
-        System.out.print("The type of car is: " + bar.getType());
+
+    // MARK: - Main
+    public static void main(String[] args)
+    {
+        SecondClass car = new SecondClass(); // Creates instance of SecondClass
+        System.out.print("The type of car is: " + car.getType()); // Print type of car
     }
 }
